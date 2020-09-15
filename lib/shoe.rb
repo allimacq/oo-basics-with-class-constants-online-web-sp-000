@@ -18,6 +18,9 @@ class Shoe
   end
   
   def brand=(unique_brand)
+    BRANDS << @brand 
+    puts BRANDS
+  end
     
 
 end
