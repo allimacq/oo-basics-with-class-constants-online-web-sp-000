@@ -6,19 +6,18 @@ class Shoe
     @brand = brand
   end
 
-BRANDS = [ ]
+  BRANDS = [ ]
 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-
-  def brand=(brand)
-    @brand = brand
-  end
   
   def brand
     @brand
   end
+  
+  def brand=(unique_brand)
+    
 
 end
