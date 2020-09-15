@@ -16,6 +16,7 @@ BRANDS = [ ]
   def brand=(brand)
     @brand = brand
     BRANDS << brand
+    BRANDS.unique 
   end
 
 end
