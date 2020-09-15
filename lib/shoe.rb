@@ -8,11 +8,6 @@ class Shoe
 
   BRANDS = [ ]
 
-  def cobble
-    self.condition = "new"
-    puts "Your shoe is as good as new!"
-  end
-  
   def brand
     @brand
   end
@@ -22,5 +17,9 @@ class Shoe
     BRANDS << unique_brand
   end
     
+  def cobble
+    self.condition = "new"
+    puts "Your shoe is as good as new!"
+  end
 
 end
